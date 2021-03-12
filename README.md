@@ -7,7 +7,7 @@ A repository for the group assignments.
 
 <h3> Variables </h3>
 <ul>
-    <li><mark>claim_id</mark>: claim identifier (anonymized). Only used to uniquely identify each claim</li>
+    <li>claim_id: claim identifier (anonymized). Only used to uniquely identify each claim</li>
     <li>fraud: target (N or Y) -- was the claim fraudulent? Only available in train set</li>
     <li>claim_amount: amount paid out by the insurance company. Used to evaluate your model. Only available in train set, as this amount is not known at claim registration, i.e. early in the process.</li>
     <li>claim_date_registration: date when the claim was registered (YYYYMMDD)</li>
